@@ -1,0 +1,84 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-23 12:18+0200\n"
+"PO-Revision-Date: 2015-08-23 17:28+0900\n"
+"Last-Translator: Changwan Jun <im@wani.kr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+
+#: ../../Creational/Singleton/README.rst:2
+msgid "`Singleton`__"
+msgstr ""
+"`싱글턴 <https://ko.wikipedia.org/wiki/%EC%8B%B1%EA%B8%80%ED%84%B4_%ED%8C"
+"%A8%ED%84%B4>`_ (`Singleton`__)"
+
+#: ../../Creational/Singleton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"안티패턴이 될 수 있기 때문에 사용에 고려해 보아야 합니다! 더 나은 테스트가능"
+"성(Testablity)과 유지가능성(Maintainability)을 위해서 의존성 주입"
+"(Dependency Injection)을 사용하세요!"
+
+#: ../../Creational/Singleton/README.rst:8
+msgid "Purpose"
+msgstr "사용 목적"
+
+#: ../../Creational/Singleton/README.rst:10
+msgid ""
+"To have only one instance of this object in the application that will "
+"handle all calls."
+msgstr ""
+"어플리케이션에서 오직 하나의 객체 인스턴스를 가지고 모든 이벤트를 처리합니"
+"다."
+
+#: ../../Creational/Singleton/README.rst:14
+msgid "Examples"
+msgstr "예시"
+
+#: ../../Creational/Singleton/README.rst:16
+msgid "DB Connector"
+msgstr "DB 커넥터"
+
+#: ../../Creational/Singleton/README.rst:17
+msgid ""
+"Logger (may also be a Multiton if there are many log files for several "
+"purposes)"
+msgstr ""
+"Logger (여러 목적을 위해 많은 로그파일 있는 경우, multiton 패턴일 수 있습니"
+"다.)"
+
+#: ../../Creational/Singleton/README.rst:19
+msgid ""
+"Lock file for the application (there is only one in the filesystem ...)"
+msgstr "어플리케이션의 락파일 (파일시스템은 하나만 존재합니다 ...)"
+
+#: ../../Creational/Singleton/README.rst:23
+msgid "UML Diagram"
+msgstr "UML 다이어그램"
+
+#: ../../Creational/Singleton/README.rst:30
+msgid "Code"
+msgstr "코드"
+
+#: ../../Creational/Singleton/README.rst:32
+msgid "You can also find these code on `GitHub`_"
+msgstr "코드는 또한 `GitHub`_ 에서 볼 수 있습니다."
+
+#: ../../Creational/Singleton/README.rst:34
+msgid "Singleton.php"
+msgstr "Singleton.php"
+
+#: ../../Creational/Singleton/README.rst:41
+msgid "Test"
+msgstr "테스트"
+
+#: ../../Creational/Singleton/README.rst:43
+msgid "Tests/SingletonTest.php"
+msgstr "Tests/SingletonTest.php"

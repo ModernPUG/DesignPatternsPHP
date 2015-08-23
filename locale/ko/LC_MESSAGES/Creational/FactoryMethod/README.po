@@ -1,0 +1,100 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-23 12:18+0200\n"
+"PO-Revision-Date: 2015-08-23 17:16+0900\n"
+"Last-Translator: Changwan Jun <im@wani.kr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+
+#: ../../Creational/FactoryMethod/README.rst:2
+msgid "`Factory Method`__"
+msgstr ""
+"`팩토리 메서드 <https://ko.wikipedia.org/wiki/%ED%8C%A9%ED%86%A0%EB%A6%AC_"
+"%EB%A9%94%EC%84%9C%EB%93%9C_%ED%8C%A8%ED%84%B4)>`_ (`Factory Method`__)"
+
+#: ../../Creational/FactoryMethod/README.rst:5
+msgid "Purpose"
+msgstr "사용 목적"
+
+#: ../../Creational/FactoryMethod/README.rst:7
+msgid ""
+"The good point over the SimpleFactory is you can subclass it to implement "
+"different ways to create objects"
+msgstr ""
+"단순팩토리(SimpleFactory)의 좋은점은 서브클래스가 객체를 여러 방법으로 구현"
+"할 수 있다는 것 입니다."
+
+#: ../../Creational/FactoryMethod/README.rst:10
+msgid "For simple case, this abstract class could be just an interface"
+msgstr "간단한 예로는, 이 추상 클래스는 인터페이스가 될 수 있다는 것입니다."
+
+#: ../../Creational/FactoryMethod/README.rst:12
+msgid ""
+"This pattern is a \"real\" Design Pattern because it achieves the "
+"\"Dependency Inversion Principle\" a.k.a the \"D\" in S.O.L.I.D principles."
+msgstr ""
+"이 패턴은 \"real\" 디자인 패턴 입니다. 왜냐하면 `S.O.L.I.D <https://ko."
+"wikipedia.org/wiki/SOLID>`_ 원리에서 \"D\"에 해당하는, 일명 \"역 의존성 원"
+"리(Dependency Inversion Principle)\"를 달성해야 하기 때문입니다."
+
+#: ../../Creational/FactoryMethod/README.rst:15
+msgid ""
+"It means the FactoryMethod class depends on abstractions, not concrete "
+"classes. This is the real trick compared to SimpleFactory or StaticFactory."
+msgstr ""
+"이 말은 FactoryMethod(코드에 언급된)클래스는 구체적인 클래스가 아닌, 추상화"
+"에 따른다는 것입니다. 이것은 단순팩토리나 정적팩토리에 비하면 진짜 기술입니"
+"다."
+
+#: ../../Creational/FactoryMethod/README.rst:20
+msgid "UML Diagram"
+msgstr "UML 다이어그램"
+
+#: ../../Creational/FactoryMethod/README.rst:27
+msgid "Code"
+msgstr "코드"
+
+#: ../../Creational/FactoryMethod/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "코드는 또한 `GitHub`_ 에서 볼 수 있습니다."
+
+#: ../../Creational/FactoryMethod/README.rst:31
+msgid "FactoryMethod.php"
+msgstr "FactoryMethod.php"
+
+#: ../../Creational/FactoryMethod/README.rst:37
+msgid "ItalianFactory.php"
+msgstr "ItalianFactory.php"
+
+#: ../../Creational/FactoryMethod/README.rst:43
+msgid "GermanFactory.php"
+msgstr "GermanFactory.php"
+
+#: ../../Creational/FactoryMethod/README.rst:49
+msgid "VehicleInterface.php"
+msgstr "VehicleInterface.php"
+
+#: ../../Creational/FactoryMethod/README.rst:55
+msgid "Porsche.php"
+msgstr "Porsche.php"
+
+#: ../../Creational/FactoryMethod/README.rst:61
+msgid "Bicycle.php"
+msgstr "Bicycle.php"
+
+#: ../../Creational/FactoryMethod/README.rst:67
+msgid "Ferrari.php"
+msgstr "Ferrari.php"
+
+#: ../../Creational/FactoryMethod/README.rst:74
+msgid "Test"
+msgstr "테스트"
+
+#: ../../Creational/FactoryMethod/README.rst:76
+msgid "Tests/FactoryMethodTest.php"
+msgstr "Tests/FactoryMethodTest.php"

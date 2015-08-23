@@ -1,0 +1,72 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-23 12:18+0200\n"
+"PO-Revision-Date: 2015-08-23 17:19+0900\n"
+"Last-Translator: Changwan Jun <im@wani.kr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+
+#: ../../Creational/Multiton/README.rst:2
+msgid "Multiton"
+msgstr "멀티턴 (Multiton)"
+
+#: ../../Creational/Multiton/README.rst:4
+msgid ""
+"**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
+"MAINTAINABILITY USE DEPENDENCY INJECTION!**"
+msgstr ""
+"안티패턴이 될 수 있기 때문에 사용에 고려해 보아야 합니다! 더 나은 테스트가"
+"능성(Testablity)과 유지가능성(Maintainability)을 위해서 의존성 주입"
+"(Dependency Injection)을 사용하세요!"
+
+#: ../../Creational/Multiton/README.rst:8
+msgid "Purpose"
+msgstr "사용 목적"
+
+#: ../../Creational/Multiton/README.rst:10
+msgid ""
+"To have only a list of named instances that are used, like a singleton but "
+"with n instances."
+msgstr ""
+"사용중인 이름있는 인스턴스만을 리스트로 갖고 싶을 때 사용합니다. 싱글턴과 "
+"유사하지만 싱글턴은 1개의 인스턴스를, 멀티턴은 n개의 인스턴스를 갖는 다는 "
+"점이 다릅니다."
+
+#: ../../Creational/Multiton/README.rst:14
+msgid "Examples"
+msgstr "예시"
+
+#: ../../Creational/Multiton/README.rst:16
+msgid "2 DB Connectors, e.g. one for MySQL, the other for SQLite"
+msgstr ""
+"2개의 데이터베이스 커넥터. 이를테면 하나는 MySQL, 또다른 하나는 SQLite."
+
+#: ../../Creational/Multiton/README.rst:17
+msgid "multiple Loggers (one for debug messages, one for errors)"
+msgstr ""
+"여러개의 로거(Logger). (하나는 디버그 메시지용, 또 하나는 에러처리용)"
+
+#: ../../Creational/Multiton/README.rst:20
+msgid "UML Diagram"
+msgstr "UML 다이어그램"
+
+#: ../../Creational/Multiton/README.rst:27
+msgid "Code"
+msgstr "코드"
+
+#: ../../Creational/Multiton/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "코드는 또한 `GitHub`_ 에서 볼 수 있습니다."
+
+#: ../../Creational/Multiton/README.rst:31
+msgid "Multiton.php"
+msgstr "Multiton.php"
+
+#: ../../Creational/Multiton/README.rst:38
+msgid "Test"
+msgstr "테스트"

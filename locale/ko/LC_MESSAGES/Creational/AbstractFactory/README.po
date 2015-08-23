@@ -1,0 +1,94 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-23 12:18+0200\n"
+"PO-Revision-Date: 2015-08-23 17:14+0900\n"
+"Last-Translator: Changwan Jun <im@wani.kr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+
+#: ../../Creational/AbstractFactory/README.rst:2
+msgid "`Abstract Factory`__"
+msgstr ""
+"추상 팩토리 <https://ko.wikipedia.org/wiki/%EC%B6%94%EC%83%81_%ED%8C%A9%ED"
+"%86%A0%EB%A6%AC_%ED%8C%A8%ED%84%B4)>`_ (`Abstract Factory`__)"
+
+#: ../../Creational/AbstractFactory/README.rst:5
+msgid "Purpose"
+msgstr "사용 목적"
+
+#: ../../Creational/AbstractFactory/README.rst:7
+msgid ""
+"To create series of related or dependent objects without specifying their "
+"concrete classes. Usually the created classes all implement the same "
+"interface. The client of the abstract factory does not care about how these "
+"objects are created, he just knows how they go together."
+msgstr ""
+"관계에 대한 집합 혹은 그들의 자신의 객체에 대한 서술 없이 의존된 객체를 생성"
+"하기 위해 사용합니다. 일반적으로 생성된 클래스들은 모두 같은 인터페이스를 구"
+"현해 만듭니다. 추상 팩토리의 사용자(Client)는 어떻게 객체가 만들어지는지 신"
+"경쓰지 않고, 단지 어떻게 동작되는지만 알면 됩니다."
+
+#: ../../Creational/AbstractFactory/README.rst:13
+msgid "UML Diagram"
+msgstr "UML 다이어그램"
+
+#: ../../Creational/AbstractFactory/README.rst:20
+msgid "Code"
+msgstr "코드"
+
+#: ../../Creational/AbstractFactory/README.rst:22
+msgid "You can also find these code on `GitHub`_"
+msgstr "코드는 또한 `GitHub`_ 에서 볼 수 있습니다."
+
+#: ../../Creational/AbstractFactory/README.rst:24
+msgid "AbstractFactory.php"
+msgstr "AbstractFactory.php"
+
+#: ../../Creational/AbstractFactory/README.rst:30
+msgid "JsonFactory.php"
+msgstr "JsonFactory.php"
+
+#: ../../Creational/AbstractFactory/README.rst:36
+msgid "HtmlFactory.php"
+msgstr "HtmlFactory.php"
+
+#: ../../Creational/AbstractFactory/README.rst:42
+msgid "MediaInterface.php"
+msgstr "MediaInterface.php"
+
+#: ../../Creational/AbstractFactory/README.rst:48
+msgid "Picture.php"
+msgstr "Picture.php"
+
+#: ../../Creational/AbstractFactory/README.rst:54
+msgid "Text.php"
+msgstr "Text.php"
+
+#: ../../Creational/AbstractFactory/README.rst:60
+msgid "Json/Picture.php"
+msgstr "Json/Picture.php"
+
+#: ../../Creational/AbstractFactory/README.rst:66
+msgid "Json/Text.php"
+msgstr "Json/Text.php"
+
+#: ../../Creational/AbstractFactory/README.rst:72
+msgid "Html/Picture.php"
+msgstr "Html/Picture.php"
+
+#: ../../Creational/AbstractFactory/README.rst:78
+msgid "Html/Text.php"
+msgstr "Html/Text.php"
+
+#: ../../Creational/AbstractFactory/README.rst:85
+msgid "Test"
+msgstr "테스트"
+
+#: ../../Creational/AbstractFactory/README.rst:87
+msgid "Tests/AbstractFactoryTest.php"
+msgstr "Tests/AbstractFactoryTest.php"

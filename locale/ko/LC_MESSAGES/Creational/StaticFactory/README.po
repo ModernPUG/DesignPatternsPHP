@@ -1,0 +1,81 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DesignPatternsPHP 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-23 12:18+0200\n"
+"PO-Revision-Date: 2015-08-23 17:30+0900\n"
+"Last-Translator: Changwan Jun <im@wani.kr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+
+#: ../../Creational/StaticFactory/README.rst:2
+msgid "Static Factory"
+msgstr "정적 팩토리 (Static Factory)"
+
+#: ../../Creational/StaticFactory/README.rst:5
+msgid "Purpose"
+msgstr "사용 목적"
+
+#: ../../Creational/StaticFactory/README.rst:7
+msgid ""
+"Similar to the AbstractFactory, this pattern is used to create series of "
+"related or dependent objects. The difference between this and the abstract "
+"factory pattern is that the static factory pattern uses just one static "
+"method to create all types of objects it can create. It is usually named "
+"``factory`` or ``build``."
+msgstr ""
+"이 패턴은 추상 팩토리와 유사하고, 종속 객체들이나 연관된 집합을 만드는데 사"
+"용합니다. 이 패턴과 추상 팩토리 패턴 사이의 차이점은 정적 팩토리 패턴은 만"
+"들 수 있는 모든 타입의 객체를 만드는 오직 단 하나의 정적인 메서드를 사용한다"
+"는 것입니다. 이 패턴은 보통 ``factory`` 또는 ``build``라고 합니다."
+
+#: ../../Creational/StaticFactory/README.rst:14
+msgid "Examples"
+msgstr "예시"
+
+#: ../../Creational/StaticFactory/README.rst:16
+msgid ""
+"Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory "
+"method create cache backends or frontends"
+msgstr ""
+"Zend Framework: ``Zend_Cache_Backend`` 또는 ``_Frontend``는 팩토리 메서드를 "
+"사용하고 캐시 백엔드 또는, 프론트엔드를 만듭니다."
+
+#: ../../Creational/StaticFactory/README.rst:20
+msgid "UML Diagram"
+msgstr "UML 다이어그램"
+
+#: ../../Creational/StaticFactory/README.rst:27
+msgid "Code"
+msgstr "코드"
+
+#: ../../Creational/StaticFactory/README.rst:29
+msgid "You can also find these code on `GitHub`_"
+msgstr "코드는 또한 `GitHub`_ 에서 볼 수 있습니다."
+
+#: ../../Creational/StaticFactory/README.rst:31
+msgid "StaticFactory.php"
+msgstr "StaticFactory.php"
+
+#: ../../Creational/StaticFactory/README.rst:37
+msgid "FormatterInterface.php"
+msgstr "FormatterInterface.php"
+
+#: ../../Creational/StaticFactory/README.rst:43
+msgid "FormatString.php"
+msgstr "FormatString.php"
+
+#: ../../Creational/StaticFactory/README.rst:49
+msgid "FormatNumber.php"
+msgstr "FormatNumber.php"
+
+#: ../../Creational/StaticFactory/README.rst:56
+msgid "Test"
+msgstr "테스트"
+
+#: ../../Creational/StaticFactory/README.rst:58
+msgid "Tests/StaticFactoryTest.php"
+msgstr "Tests/StaticFactoryTest.php"
