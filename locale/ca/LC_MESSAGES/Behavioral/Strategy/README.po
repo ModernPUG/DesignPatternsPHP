@@ -64,29 +64,9 @@ msgid "Code"
 msgstr ""
 
 #: ../../Behavioral/Strategy/README.rst:35
-msgid "You can also find these code on `GitHub`_"
-msgstr ""
-
-#: ../../Behavioral/Strategy/README.rst:37
-msgid "ObjectCollection.php"
-msgstr ""
-
-#: ../../Behavioral/Strategy/README.rst:43
-msgid "ComparatorInterface.php"
-msgstr ""
-
-#: ../../Behavioral/Strategy/README.rst:49
-msgid "DateComparator.php"
-msgstr ""
-
-#: ../../Behavioral/Strategy/README.rst:55
-msgid "IdComparator.php"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Behavioral/Strategy/README.rst:62
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Strategy/README.rst:64
-msgid "Tests/StrategyTest.php"
 msgstr ""

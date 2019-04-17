@@ -18,40 +18,47 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
-OrderController.php
+OrderContext.php
 
-.. literalinclude:: OrderController.php
+.. literalinclude:: OrderContext.php
    :language: php
    :linenos:
 
-OrderFactory.php
+State.php
 
-.. literalinclude:: OrderFactory.php
+.. literalinclude:: State.php
    :language: php
    :linenos:
 
-OrderInterface.php
+StateCreated.php
 
-.. literalinclude:: OrderInterface.php
+.. literalinclude:: StateCreated.php
    :language: php
    :linenos:
 
-ShippingOrder.php
+StateShipped.php
 
-.. literalinclude:: ShippingOrder.php
+.. literalinclude:: StateShipped.php
    :language: php
    :linenos:
 
-CreateOrder.php
+StateDone.php
 
-.. literalinclude:: CreateOrder.php
+.. literalinclude:: StateDone.php
    :language: php
    :linenos:
 
 Test
 ----
+
+Tests/StateTest.php
+
+.. literalinclude:: Tests/StateTest.php
+   :language: php
+   :linenos:
+
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/State
 .. __: http://en.wikipedia.org/wiki/State_pattern

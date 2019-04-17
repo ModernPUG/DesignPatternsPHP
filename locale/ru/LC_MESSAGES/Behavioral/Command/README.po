@@ -81,36 +81,16 @@ msgstr ""
 
 #: ../../Behavioral/Command/README.rst:32
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/Command/README.rst:39
 msgid "Code"
 msgstr "Код"
 
 #: ../../Behavioral/Command/README.rst:41
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы также можете найти этот код на `GitHub`_"
-
-#: ../../Behavioral/Command/README.rst:43
-msgid "CommandInterface.php"
-msgstr "CommandInterface.php"
-
-#: ../../Behavioral/Command/README.rst:49
-msgid "HelloCommand.php"
-msgstr "HelloCommand.php"
-
-#: ../../Behavioral/Command/README.rst:55
-msgid "Receiver.php"
-msgstr "Receiver.php"
-
-#: ../../Behavioral/Command/README.rst:61
-msgid "Invoker.php"
-msgstr "Invoker.php"
 
 #: ../../Behavioral/Command/README.rst:68
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Behavioral/Command/README.rst:70
-msgid "Tests/CommandTest.php"
-msgstr "Tests/CommandTest.php"

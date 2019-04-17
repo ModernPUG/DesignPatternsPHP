@@ -25,7 +25,7 @@ msgstr "Назначение"
 msgid ""
 "To translate one interface for a class into a compatible interface. An "
 "adapter allows classes to work together that normally could not because of "
-"incompatible interfaces by providing it's interface to clients while using "
+"incompatible interfaces by providing its interface to clients while using "
 "the original interface."
 msgstr ""
 "Привести нестандартный или неудобный интерфейс какого-то класса в "
@@ -53,40 +53,16 @@ msgstr ""
 
 #: ../../Structural/Adapter/README.rst:20
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Adapter/README.rst:27
 msgid "Code"
 msgstr "Код"
 
 #: ../../Structural/Adapter/README.rst:29
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
-
-#: ../../Structural/Adapter/README.rst:31
-msgid "PaperBookInterface.php"
-msgstr "PaperBookInterface.php"
-
-#: ../../Structural/Adapter/README.rst:37
-msgid "Book.php"
-msgstr "Book.php"
-
-#: ../../Structural/Adapter/README.rst:43
-msgid "EBookAdapter.php"
-msgstr "EBookAdapter.php"
-
-#: ../../Structural/Adapter/README.rst:49
-msgid "EBookInterface.php"
-msgstr "EBookInterface.php"
-
-#: ../../Structural/Adapter/README.rst:55
-msgid "Kindle.php"
-msgstr "Kindle.php"
 
 #: ../../Structural/Adapter/README.rst:62
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Structural/Adapter/README.rst:64
-msgid "Tests/AdapterTest.php"
-msgstr "Tests/AdapterTest.php"

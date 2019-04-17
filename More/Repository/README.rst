@@ -29,11 +29,23 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 Post.php
 
-.. literalinclude:: Post.php
+.. literalinclude:: Domain/Post.php
+   :language: php
+   :linenos:
+
+PostId.php
+
+.. literalinclude:: Domain/PostId.php
+   :language: php
+   :linenos:
+
+PostStatus.php
+
+.. literalinclude:: Domain/PostStatus.php
    :language: php
    :linenos:
 
@@ -43,19 +55,25 @@ PostRepository.php
    :language: php
    :linenos:
 
-Storage.php
+Persistence.php
 
-.. literalinclude:: Storage.php
+.. literalinclude:: Persistence.php
    :language: php
    :linenos:
 
-MemoryStorage.php
+InMemoryPersistence.php
 
-.. literalinclude:: MemoryStorage.php
+.. literalinclude:: InMemoryPersistence.php
    :language: php
    :linenos:
 
 Test
 ----
+
+Tests/PostRepositoryTest.php
+
+.. literalinclude:: Tests/PostRepositoryTest.php
+    :language: php
+    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/More/Repository

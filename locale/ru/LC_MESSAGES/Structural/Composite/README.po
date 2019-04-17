@@ -52,36 +52,16 @@ msgstr ""
 
 #: ../../Structural/Composite/README.rst:20
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Structural/Composite/README.rst:27
 msgid "Code"
 msgstr "Код"
 
 #: ../../Structural/Composite/README.rst:29
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
-
-#: ../../Structural/Composite/README.rst:31
-msgid "FormElement.php"
-msgstr "FormElement.php"
-
-#: ../../Structural/Composite/README.rst:37
-msgid "Form.php"
-msgstr "Form.php"
-
-#: ../../Structural/Composite/README.rst:43
-msgid "InputElement.php"
-msgstr "InputElement.php"
-
-#: ../../Structural/Composite/README.rst:49
-msgid "TextElement.php"
-msgstr "TextElement.php"
 
 #: ../../Structural/Composite/README.rst:56
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Structural/Composite/README.rst:58
-msgid "Tests/CompositeTest.php"
-msgstr "Tests/CompositeTest.php"

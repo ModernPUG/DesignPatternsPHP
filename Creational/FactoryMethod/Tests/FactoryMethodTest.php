@@ -2,49 +2,27 @@
 
 namespace DesignPatterns\Creational\FactoryMethod\Tests;
 
-use DesignPatterns\Creational\FactoryMethod\FactoryMethod;
-use DesignPatterns\Creational\FactoryMethod\GermanFactory;
-use DesignPatterns\Creational\FactoryMethod\ItalianFactory;
+use DesignPatterns\Creational\FactoryMethod\FileLogger;
+use DesignPatterns\Creational\FactoryMethod\FileLoggerFactory;
+use DesignPatterns\Creational\FactoryMethod\StdoutLogger;
+use DesignPatterns\Creational\FactoryMethod\StdoutLoggerFactory;
+use PHPUnit\Framework\TestCase;
 
-/**
- * FactoryMethodTest tests the factory method pattern
- */
-class FactoryMethodTest extends \PHPUnit_Framework_TestCase
+class FactoryMethodTest extends TestCase
 {
-
-    protected $type = array(
-        FactoryMethod::CHEAP,
-        FactoryMethod::FAST
-    );
-
-    public function getShop()
+    public function testCanCreateStdoutLogging()
     {
-        return array(
-            array(new GermanFactory()),
-            array(new ItalianFactory())
-        );
+        $loggerFactory = new StdoutLoggerFactory();
+        $logger = $loggerFactory->createLogger();
+
+        $this->assertInstanceOf(StdoutLogger::class, $logger);
     }
 
-    /**
-     * @dataProvider getShop
-     */
-    public function testCreation(FactoryMethod $shop)
+    public function testCanCreateFileLogging()
     {
-        // this test method acts as a client for the factory. We don't care
-        // about the factory, all we know is it can produce vehicle
-        foreach ($this->type as $oneType) {
-            $vehicle = $shop->create($oneType);
-            $this->assertInstanceOf('DesignPatterns\Creational\FactoryMethod\VehicleInterface', $vehicle);
-        }
-    }
+        $loggerFactory = new FileLoggerFactory(sys_get_temp_dir());
+        $logger = $loggerFactory->createLogger();
 
-    /**
-     * @dataProvider getShop
-     * @expectedException \InvalidArgumentException
-     * @expectedExceptionMessage spaceship is not a valid vehicle
-     */
-    public function testUnknownType(FactoryMethod $shop)
-    {
-        $shop->create('spaceship');
+        $this->assertInstanceOf(FileLogger::class, $logger);
     }
 }

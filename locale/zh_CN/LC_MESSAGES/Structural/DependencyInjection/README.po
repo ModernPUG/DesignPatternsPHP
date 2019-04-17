@@ -13,7 +13,7 @@ msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:2
 msgid "`Dependency Injection`__"
-msgstr "`依赖注入`__"
+msgstr "`依赖注入`"
 
 #: ../../Structural/DependencyInjection/README.rst:5
 msgid "Purpose"
@@ -85,33 +85,9 @@ msgid "Code"
 msgstr "代码"
 
 #: ../../Structural/DependencyInjection/README.rst:46
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "你可以在 `GitHub`_ 上找到这些代码"
-
-#: ../../Structural/DependencyInjection/README.rst:48
-msgid "AbstractConfig.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:54
-msgid "Parameters.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:60
-msgid "ArrayConfig.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:66
-msgid "Connection.php"
-msgstr ""
 
 #: ../../Structural/DependencyInjection/README.rst:73
 msgid "Test"
 msgstr "测试"
-
-#: ../../Structural/DependencyInjection/README.rst:75
-msgid "Tests/DependencyInjectionTest.php"
-msgstr ""
-
-#: ../../Structural/DependencyInjection/README.rst:81
-msgid "Tests/config.php"
-msgstr ""

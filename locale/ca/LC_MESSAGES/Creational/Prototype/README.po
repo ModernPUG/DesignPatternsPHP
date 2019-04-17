@@ -44,23 +44,7 @@ msgid "Code"
 msgstr ""
 
 #: ../../Creational/Prototype/README.rst:26
-msgid "You can also find these code on `GitHub`_"
-msgstr ""
-
-#: ../../Creational/Prototype/README.rst:28
-msgid "index.php"
-msgstr ""
-
-#: ../../Creational/Prototype/README.rst:34
-msgid "BookPrototype.php"
-msgstr ""
-
-#: ../../Creational/Prototype/README.rst:40
-msgid "BarBookPrototype.php"
-msgstr ""
-
-#: ../../Creational/Prototype/README.rst:46
-msgid "FooBookPrototype.php"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Creational/Prototype/README.rst:53

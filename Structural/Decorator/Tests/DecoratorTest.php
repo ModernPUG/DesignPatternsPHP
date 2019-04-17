@@ -2,65 +2,37 @@
 
 namespace DesignPatterns\Structural\Decorator\Tests;
 
-use DesignPatterns\Structural\Decorator;
+use DesignPatterns\Structural\Decorator\DoubleRoomBooking;
+use DesignPatterns\Structural\Decorator\ExtraBed;
+use DesignPatterns\Structural\Decorator\WiFi;
+use PHPUnit\Framework\TestCase;
 
-/**
- * DecoratorTest tests the decorator pattern
- */
-class DecoratorTest extends \PHPUnit_Framework_TestCase
+class DecoratorTest extends TestCase
 {
-
-    protected $service;
-
-    protected function setUp()
+    public function testCanCalculatePriceForBasicDoubleRoomBooking()
     {
-        $this->service = new Decorator\Webservice(array('foo' => 'bar'));
+        $booking = new DoubleRoomBooking();
+
+        $this->assertSame(40, $booking->calculatePrice());
+        $this->assertSame('double room', $booking->getDescription());
     }
 
-    public function testJsonDecorator()
+    public function testCanCalculatePriceForDoubleRoomBookingWithWiFi()
     {
-        // Wrap service with a JSON decorator for renderers
-        $service = new Decorator\RenderInJson($this->service);
-        // Our Renderer will now output JSON instead of an array
-        $this->assertEquals('{"foo":"bar"}', $service->renderData());
+        $booking = new DoubleRoomBooking();
+        $booking = new WiFi($booking);
+
+        $this->assertSame(42, $booking->calculatePrice());
+        $this->assertSame('double room with wifi', $booking->getDescription());
     }
 
-    public function testXmlDecorator()
+    public function testCanCalculatePriceForDoubleRoomBookingWithWiFiAndExtraBed()
     {
-        // Wrap service with a JSON decorator for renderers
-        $service = new Decorator\RenderInXml($this->service);
-        // Our Renderer will now output XML instead of an array
-        $xml = '<?xml version="1.0"?><foo>bar</foo>';
-        $this->assertXmlStringEqualsXmlString($xml, $service->renderData());
-    }
+        $booking = new DoubleRoomBooking();
+        $booking = new WiFi($booking);
+        $booking = new ExtraBed($booking);
 
-    /**
-     * The first key-point of this pattern :
-     */
-    public function testDecoratorMustImplementsRenderer()
-    {
-        $className = 'DesignPatterns\Structural\Decorator\Decorator';
-        $interfaceName = 'DesignPatterns\Structural\Decorator\RendererInterface';
-        $this->assertTrue(is_subclass_of($className, $interfaceName));
-    }
-
-    /**
-     * Second key-point of this pattern : the decorator is type-hinted
-     *
-     * @expectedException \PHPUnit_Framework_Error
-     */
-    public function testDecoratorTypeHinted()
-    {
-        $this->getMockForAbstractClass('DesignPatterns\Structural\Decorator\Decorator', array(new \stdClass()));
-    }
-
-    /**
-     * The decorator implements and wraps the same interface
-     */
-    public function testDecoratorOnlyAcceptRenderer()
-    {
-        $mock = $this->getMock('DesignPatterns\Structural\Decorator\RendererInterface');
-        $dec = $this->getMockForAbstractClass('DesignPatterns\Structural\Decorator\Decorator', array($mock));
-        $this->assertNotNull($dec);
+        $this->assertSame(72, $booking->calculatePrice());
+        $this->assertSame('double room with wifi with extra bed', $booking->getDescription());
     }
 }

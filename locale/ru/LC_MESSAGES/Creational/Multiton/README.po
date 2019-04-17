@@ -20,8 +20,8 @@ msgid ""
 "**THIS IS CONSIDERED TO BE AN ANTI-PATTERN! FOR BETTER TESTABILITY AND "
 "MAINTAINABILITY USE DEPENDENCY INJECTION!**"
 msgstr ""
-"**Это считается анти-паттерном! Для лучшей тестируемости и сопровождения "
-"кода используйте Инъекцию Зависимости (Dependency Injection)!**"
+"**Этот шаблон считается анти-паттерном! Для лучшей тестируемости и сопровождения "
+"кода используйте внедрение зависимости (Dependency Injection)!**"
 
 #: ../../Creational/Multiton/README.rst:8
 msgid "Purpose"
@@ -53,19 +53,15 @@ msgstr ""
 
 #: ../../Creational/Multiton/README.rst:20
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Creational/Multiton/README.rst:27
 msgid "Code"
 msgstr "Код"
 
 #: ../../Creational/Multiton/README.rst:29
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
-
-#: ../../Creational/Multiton/README.rst:31
-msgid "Multiton.php"
-msgstr "Multiton.php"
 
 #: ../../Creational/Multiton/README.rst:38
 msgid "Test"

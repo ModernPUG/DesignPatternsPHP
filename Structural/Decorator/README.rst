@@ -23,35 +23,35 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
-RendererInterface.php
+Booking.php
 
-.. literalinclude:: RendererInterface.php
+.. literalinclude:: Booking.php
    :language: php
    :linenos:
 
-Webservice.php
+BookingDecorator.php
 
-.. literalinclude:: Webservice.php
+.. literalinclude:: BookingDecorator.php
    :language: php
    :linenos:
 
-Decorator.php
+DoubleRoomBooking.php
 
-.. literalinclude:: Decorator.php
+.. literalinclude:: DoubleRoomBooking.php
    :language: php
    :linenos:
 
-RenderInXml.php
+ExtraBed.php
 
-.. literalinclude:: RenderInXml.php
+.. literalinclude:: ExtraBed.php
    :language: php
    :linenos:
 
-RenderInJson.php
+WiFi.php
 
-.. literalinclude:: RenderInJson.php
+.. literalinclude:: WiFi.php
    :language: php
    :linenos:
 
