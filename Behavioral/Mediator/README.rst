@@ -4,8 +4,8 @@
 Purpose
 -------
 
-This pattern provides an easy to decouple many components working
-together. It is a good alternative over Observer IF you have a "central
+This pattern provides an easy way to decouple many components working
+together. It is a good alternative to Observer IF you have a "central
 intelligence", like a controller (but not in the sense of the MVC).
 
 All components (called Colleague) are only coupled to the
@@ -22,7 +22,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 MediatorInterface.php
 

@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -20,9 +20,7 @@ msgid "Purpose"
 msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:7
-msgid ""
-"To make an object iterable and to make it appear like a collection of "
-"objects."
+msgid "To make an object iterable and to make it appear like a collection of objects."
 msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:11
@@ -55,29 +53,9 @@ msgid "Code"
 msgstr ""
 
 #: ../../Behavioral/Iterator/README.rst:34
-msgid "You can also find these code on `GitHub`_"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:36
-msgid "Book.php"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:42
-msgid "BookList.php"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:48
-msgid "BookListIterator.php"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:54
-msgid "BookListReverseIterator.php"
-msgstr ""
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/Iterator/README.rst:61
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Iterator/README.rst:63
-msgid "Tests/IteratorTest.php"
 msgstr ""

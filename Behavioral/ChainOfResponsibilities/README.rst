@@ -1,14 +1,14 @@
 `Chain Of Responsibilities`__
 =============================
 
-Purpose:
+Purpose
 --------
 
 To build a chain of objects to handle a call in sequential order. If one
 object cannot handle a call, it delegates the call to the next in the
 chain and so forth.
 
-Examples:
+Examples
 ---------
 
 -  logging framework, where each chain element decides autonomously what
@@ -31,29 +31,23 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
-
-Request.php
-
-.. literalinclude:: Request.php
-   :language: php
-   :linenos:
+You can also find this code on `GitHub`_
 
 Handler.php
 
 .. literalinclude:: Handler.php
    :language: php
    :linenos:
+   
+Responsible/FastStorage.php
 
-Responsible/SlowStorage.php
-
-.. literalinclude:: Responsible/SlowStorage.php
+.. literalinclude:: Responsible/HttpInMemoryCacheHandler.php
    :language: php
    :linenos:
 
-Responsible/FastStorage.php
+Responsible/SlowStorage.php
 
-.. literalinclude:: Responsible/FastStorage.php
+.. literalinclude:: Responsible/SlowDatabaseHandler.php
    :language: php
    :linenos:
 

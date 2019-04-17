@@ -7,7 +7,7 @@ Purpose
 To create series of related or dependent objects without specifying
 their concrete classes. Usually the created classes all implement the
 same interface. The client of the abstract factory does not care about
-how these objects are created, he just knows how they go together.
+how these objects are created, it just knows how they go together.
 
 UML Diagram
 -----------
@@ -19,65 +19,29 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
-AbstractFactory.php
+Product.php
 
-.. literalinclude:: AbstractFactory.php
+.. literalinclude:: Product.php
    :language: php
    :linenos:
 
-JsonFactory.php
+ShippableProduct.php
 
-.. literalinclude:: JsonFactory.php
+.. literalinclude:: ShippableProduct.php
    :language: php
    :linenos:
 
-HtmlFactory.php
+DigitalProduct.php
 
-.. literalinclude:: HtmlFactory.php
+.. literalinclude:: DigitalProduct.php
    :language: php
    :linenos:
 
-MediaInterface.php
+ProductFactory.php
 
-.. literalinclude:: MediaInterface.php
-   :language: php
-   :linenos:
-
-Picture.php
-
-.. literalinclude:: Picture.php
-   :language: php
-   :linenos:
-
-Text.php
-
-.. literalinclude:: Text.php
-   :language: php
-   :linenos:
-
-Json/Picture.php
-
-.. literalinclude:: Json/Picture.php
-   :language: php
-   :linenos:
-
-Json/Text.php
-
-.. literalinclude:: Json/Text.php
-   :language: php
-   :linenos:
-
-Html/Picture.php
-
-.. literalinclude:: Html/Picture.php
-   :language: php
-   :linenos:
-
-Html/Text.php
-
-.. literalinclude:: Html/Text.php
+.. literalinclude:: ProductFactory.php
    :language: php
    :linenos:
 

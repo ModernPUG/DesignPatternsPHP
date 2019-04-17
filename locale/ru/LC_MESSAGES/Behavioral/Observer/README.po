@@ -22,7 +22,7 @@ msgstr "Назначение"
 #: ../../Behavioral/Observer/README.rst:7
 msgid ""
 "To implement a publish/subscribe behaviour to an object, whenever a "
-"\"Subject\" object changes it's state, the attached \"Observers\" will be "
+"\"Subject\" object changes its state, the attached \"Observers\" will be "
 "notified. It is used to shorten the amount of coupled objects and uses loose"
 " coupling instead."
 msgstr ""
@@ -57,28 +57,16 @@ msgstr ""
 
 #: ../../Behavioral/Observer/README.rst:25
 msgid "UML Diagram"
-msgstr "UML Диаграмма"
+msgstr "Диаграмма UML"
 
 #: ../../Behavioral/Observer/README.rst:32
 msgid "Code"
 msgstr "Код"
 
 #: ../../Behavioral/Observer/README.rst:34
-msgid "You can also find these code on `GitHub`_"
+msgid "You can also find this code on `GitHub`_"
 msgstr "Вы можете найти этот код на `GitHub`_"
-
-#: ../../Behavioral/Observer/README.rst:36
-msgid "User.php"
-msgstr "User.php"
-
-#: ../../Behavioral/Observer/README.rst:42
-msgid "UserObserver.php"
-msgstr "UserObserver.php"
 
 #: ../../Behavioral/Observer/README.rst:49
 msgid "Test"
 msgstr "Тест"
-
-#: ../../Behavioral/Observer/README.rst:51
-msgid "Tests/ObserverTest.php"
-msgstr "Tests/ObserverTest.php"

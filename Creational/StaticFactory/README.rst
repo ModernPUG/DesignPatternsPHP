@@ -14,7 +14,7 @@ Examples
 --------
 
 -  Zend Framework: ``Zend_Cache_Backend`` or ``_Frontend`` use a factory
-   method create cache backends or frontends
+   method to create cache backends and frontends
 
 UML Diagram
 -----------
@@ -26,7 +26,7 @@ UML Diagram
 Code
 ----
 
-You can also find these code on `GitHub`_
+You can also find this code on `GitHub`_
 
 StaticFactory.php
 
@@ -34,9 +34,9 @@ StaticFactory.php
    :language: php
    :linenos:
 
-FormatterInterface.php
+Formatter.php
 
-.. literalinclude:: FormatterInterface.php
+.. literalinclude:: Formatter.php
    :language: php
    :linenos:
 

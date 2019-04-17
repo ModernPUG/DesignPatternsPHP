@@ -2,9 +2,10 @@
 
 namespace DesignPatterns\Creational\StaticFactory;
 
-/**
- * Class FormatNumber
- */
-class FormatNumber implements FormatterInterface
+class FormatNumber implements Formatter
 {
+    public function format(string $input): string
+    {
+        return number_format($input);
+    }
 }

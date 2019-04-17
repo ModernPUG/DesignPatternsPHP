@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: DesignPatternsPHP 1.0\n"
@@ -20,7 +20,7 @@ msgid "Purpose"
 msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:7
-msgid "ConcreteFactory is a simple factory pattern."
+msgid "SimpleFactory is a simple factory pattern."
 msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:9
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:12
 msgid ""
-"Therefore, you can have multiple factories, differently parametrized, you "
+"Therefore, you can have multiple factories, differently parameterized, you "
 "can subclass it and you can mock-up it."
 msgstr ""
 
@@ -44,29 +44,9 @@ msgid "Code"
 msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:25
-msgid "You can also find these code on `GitHub`_"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:27
-msgid "ConcreteFactory.php"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:33
-msgid "VehicleInterface.php"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:39
-msgid "Bicycle.php"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:45
-msgid "Scooter.php"
+msgid "You can also find this code on `GitHub`_"
 msgstr ""
 
 #: ../../Creational/SimpleFactory/README.rst:52
 msgid "Test"
-msgstr ""
-
-#: ../../Creational/SimpleFactory/README.rst:54
-msgid "Tests/SimpleFactoryTest.php"
 msgstr ""

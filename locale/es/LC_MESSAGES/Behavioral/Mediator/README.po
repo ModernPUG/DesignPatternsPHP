@@ -21,8 +21,8 @@ msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:7
 msgid ""
-"This pattern provides an easy to decouple many components working together. "
-"It is a good alternative over Observer IF you have a \"central "
+"This pattern provides an easy way to decouple many components working "
+"together. It is a good alternative to Observer IF you have a \"central "
 "intelligence\", like a controller (but not in the sense of the MVC)."
 msgstr ""
 
@@ -42,37 +42,9 @@ msgid "Code"
 msgstr ""
 
 #: ../../Behavioral/Mediator/README.rst:25
-msgid "You can also find these code on `GitHub`_"
-msgstr ""
-
-#: ../../Behavioral/Mediator/README.rst:27
-msgid "MediatorInterface.php"
-msgstr ""
-
-#: ../../Behavioral/Mediator/README.rst:33
-msgid "Mediator.php"
-msgstr ""
-
-#: ../../Behavioral/Mediator/README.rst:39
-msgid "Colleague.php"
-msgstr ""
-
-#: ../../Behavioral/Mediator/README.rst:45
-msgid "Subsystem/Client.php"
-msgstr ""
-
-#: ../../Behavioral/Mediator/README.rst:51
-msgid "Subsystem/Database.php"
-msgstr ""
-
-#: ../../Behavioral/Mediator/README.rst:57
-msgid "Subsystem/Server.php"
-msgstr ""
+msgid "You can also find this code on `GitHub`_"
+msgstr "Puedes encontrar el código en `GitHub`_"
 
 #: ../../Behavioral/Mediator/README.rst:64
 msgid "Test"
-msgstr ""
-
-#: ../../Behavioral/Mediator/README.rst:66
-msgid "Tests/MediatorTest.php"
 msgstr ""

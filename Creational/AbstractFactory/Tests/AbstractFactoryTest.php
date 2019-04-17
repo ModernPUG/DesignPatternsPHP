@@ -2,43 +2,42 @@
 
 namespace DesignPatterns\Creational\AbstractFactory\Tests;
 
-use DesignPatterns\Creational\AbstractFactory\AbstractFactory;
-use DesignPatterns\Creational\AbstractFactory\HtmlFactory;
-use DesignPatterns\Creational\AbstractFactory\JsonFactory;
+use DesignPatterns\Creational\AbstractFactory\DigitalProduct;
+use DesignPatterns\Creational\AbstractFactory\ProductFactory;
+use DesignPatterns\Creational\AbstractFactory\ShippableProduct;
+use PHPUnit\Framework\TestCase;
 
-/**
- * AbstractFactoryTest tests concrete factories
- */
-class AbstractFactoryTest extends \PHPUnit_Framework_TestCase
+class AbstractFactoryTest extends TestCase
 {
-    public function getFactories()
+    public function testCanCreateDigitalProduct()
     {
-        return array(
-            array(new JsonFactory()),
-            array(new HtmlFactory())
-        );
+        $factory = new ProductFactory();
+        $product = $factory->createDigitalProduct(150);
+
+        $this->assertInstanceOf(DigitalProduct::class, $product);
     }
 
-    /**
-     * This is the client of factories. Note that the client does not
-     * care which factory is given to him, he can create any component he
-     * wants and render how he wants.
-     *
-     * @dataProvider getFactories
-     */
-    public function testComponentCreation(AbstractFactory $factory)
+    public function testCanCreateShippableProduct()
     {
-        $article = array(
-            $factory->createText('Lorem Ipsum'),
-            $factory->createPicture('/image.jpg', 'caption'),
-            $factory->createText('footnotes')
-        );
+        $factory = new ProductFactory();
+        $product = $factory->createShippableProduct(150);
 
-        $this->assertContainsOnly('DesignPatterns\Creational\AbstractFactory\MediaInterface', $article);
+        $this->assertInstanceOf(ShippableProduct::class, $product);
+    }
 
-        /* this is the time to look at the Builder pattern. This pattern
-         * helps you to create complex object like that article above with
-         * a given Abstract Factory
-         */
+    public function testCanCalculatePriceForDigitalProduct()
+    {
+        $factory = new ProductFactory();
+        $product = $factory->createDigitalProduct(150);
+
+        $this->assertEquals(150, $product->calculatePrice());
+    }
+
+    public function testCanCalculatePriceForShippableProduct()
+    {
+        $factory = new ProductFactory();
+        $product = $factory->createShippableProduct(150);
+
+        $this->assertEquals(200, $product->calculatePrice());
     }
 }
